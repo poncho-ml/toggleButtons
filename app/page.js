@@ -27,28 +27,28 @@ export default function Home() {
                     <ToggleButton value="left" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth: '250px', gap: '8px', justifyContent:'start' }}>
                         <div className='flex gap-2 items-center w-full'>
                             <LunchDiningIcon className={`${alignment === 'left' ? 'bg-sky-700':'bg-gray-500' } rounded-full text-gray-200 p-1`} />
-                            <p className='font-bold'>Brand Name</p>
+                            <p className='font-bold'>Title A</p>
                         </div>
                         <div className='flex gap-2 items-center'>
-                            <p className='normal-case text-left'>Assign a project to specific roles at all/select Burger King locations. </p>
+                            <p className='normal-case text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
                         </div>
                     </ToggleButton>
                     <ToggleButton value="right" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth: '250px', gap: '8px', justifyContent:'start'}}>
                         <div className='flex gap-2 items-center w-full'>
                             <LocationOnIcon className={`${alignment === 'right' ? 'bg-sky-700':'bg-gray-500' } rounded-full text-gray-200 p-1`} />
-                            <p className='font-bold'>Company-Owned</p>
+                            <p className='font-bold'>Title B</p>
                         </div>
                         <div className='flex gap-2 items-center'>
-                            <p className='normal-case text-left'>Assign a project to your company-owned locations only.</p>
+                            <p className='normal-case text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </ToggleButton>
                     <ToggleButton disabled value="dis" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth:'250px', gap: '8px', justifyContent:'start' }}>
                         <div className='flex gap-2 items-center w-full'>
                             <LocationOnIcon className='bg-gray-400 rounded-full text-gray-200 p-1' />
-                            <p className='font-bold'>Title</p>
+                            <p className='font-bold'>Title C</p>
                         </div>
                         <div className='flex gap-2 items-center'>
-                            <p className='normal-case text-left'>This is the text of a very long button</p>
+                            <p className='normal-case text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </ToggleButton>
                 </ToggleButtonGroup>
