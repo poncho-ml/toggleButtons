@@ -45,10 +45,10 @@ export default function Home() {
                     <ToggleButton disabled value="dis" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth:'250px', gap: '8px', justifyContent:'start' }}>
                         <div className='flex gap-2 items-center w-full'>
                             <LocationOnIcon className='bg-gray-400 rounded-full text-gray-200 p-1' />
-                            <p className='font-bold'>Title C</p>
+                            <p className='font-bold'>Disabled Variant</p>
                         </div>
                         <div className='flex gap-2 items-center'>
-                            <p className='normal-case text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p className='normal-case text-left'>This button is disabled</p>
                         </div>
                     </ToggleButton>
                 </ToggleButtonGroup>
