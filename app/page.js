@@ -24,7 +24,7 @@ export default function Home() {
                     exclusive
                     aria-label="text alignment"
                 >
-                    <ToggleButton value="left" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth: '250px', gap: '8px', justifyContent:'start' }}>
+                    <ToggleButton value="left" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth: '250px', gap: '8px', justifyContent:'start', minWidth: '150px' }}>
                         <div className='flex gap-2 items-center w-full'>
                             <LunchDiningIcon className={`${alignment === 'left' ? 'bg-sky-700':'bg-gray-500' } rounded-full text-gray-200 p-1`} />
                             <p className='font-bold'>Title A</p>
@@ -33,7 +33,7 @@ export default function Home() {
                             <p className='normal-case text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
                         </div>
                     </ToggleButton>
-                    <ToggleButton value="right" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth: '250px', gap: '8px', justifyContent:'start'}}>
+                    <ToggleButton value="right" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth: '250px', gap: '8px', justifyContent:'start', minWidth: '150px'}}>
                         <div className='flex gap-2 items-center w-full'>
                             <LocationOnIcon className={`${alignment === 'right' ? 'bg-sky-700':'bg-gray-500' } rounded-full text-gray-200 p-1`} />
                             <p className='font-bold'>Title B</p>
@@ -42,13 +42,13 @@ export default function Home() {
                             <p className='normal-case text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </ToggleButton>
-                    <ToggleButton disabled value="dis" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth:'250px', gap: '8px', justifyContent:'start' }}>
+                    <ToggleButton disabled value="dis" aria-label="left aligned" sx={{ display: 'flex', flexDirection: 'column', maxWidth:'250px', gap: '8px', justifyContent:'start', minWidth: '150px' }}>
                         <div className='flex gap-2 items-center w-full'>
                             <LocationOnIcon className='bg-gray-400 rounded-full text-gray-200 p-1' />
-                            <p className='font-bold'>Disabled Variant</p>
+                            <p className='font-bold'>Disabled</p>
                         </div>
                         <div className='flex gap-2 items-center'>
-                            <p className='normal-case text-left'>This button is disabled</p>
+                            <p className='normal-case text-left'>This button is  using the disabled variant</p>
                         </div>
                     </ToggleButton>
                 </ToggleButtonGroup>
